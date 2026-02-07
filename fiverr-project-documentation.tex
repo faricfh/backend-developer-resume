@@ -1,0 +1,122 @@
+\documentclass[11pt,a4paper]{article}
+
+% ================== PACKAGES ==================
+\usepackage[a4paper,margin=2cm]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+% ================== SETTINGS ==================
+\setstretch{1.15}
+\setlist[itemize]{leftmargin=*, noitemsep, topsep=4pt}
+
+\titleformat{\section}
+  {\Large\bfseries}
+  {}
+  {0em}
+  {}
+
+\titleformat{\subsection}
+  {\large\bfseries}
+  {}
+  {0em}
+  {}
+
+% ================== DOCUMENT ==================
+\begin{document}
+
+\begin{center}
+{\LARGE \textbf{Project Documentation}}\\
+\vspace{4pt}
+Freelance Development Projects
+\end{center}
+
+\vspace{12pt}
+
+% ================== PROJECT 1 ==================
+\section*{Insurance Management System}
+
+Sistem manajemen asuransi berbasis web yang dikembangkan untuk kebutuhan administrasi klien.
+
+\subsection*{Deskripsi}
+Aplikasi ini digunakan untuk pengelolaan data operasional asuransi, termasuk manajemen pengguna, data polis, dan laporan administrasi.
+
+\subsection*{Fitur Utama}
+\begin{itemize}
+  \item Dashboard administrasi berbasis peran pengguna
+  \item Sistem autentikasi dan kontrol akses
+  \item Modul CRUD data operasional
+  \item Laporan administrasi berbasis database
+\end{itemize}
+
+\subsection*{Teknologi}
+Laravel, MySQL, Admin Panel
+
+\vspace{10pt}
+
+% ================== PROJECT 2 ==================
+\section*{Escala Seicho-no-ie Management System}
+
+Sistem manajemen jadwal dan pelaporan organisasi berbasis kalender.
+
+\subsection*{Deskripsi}
+Aplikasi digunakan untuk mengelola jadwal kegiatan organisasi serta pelaporan aktivitas bulanan.
+
+\subsection*{Fitur Utama}
+\begin{itemize}
+  \item Sistem penjadwalan berbasis kalender
+  \item Manajemen entitas organisasi (nucleo, associacao, orientador)
+  \item Ekspor laporan PDF bulanan
+  \item Rekap data aktivitas organisasi
+\end{itemize}
+
+\subsection*{Teknologi}
+Laravel, MySQL, PDF Reporting
+
+\vspace{10pt}
+
+% ================== PROJECT 3 ==================
+\section*{Workbench Data Management App}
+
+Aplikasi manajemen data peralatan industri.
+
+\subsection*{Deskripsi}
+Digunakan untuk pengelolaan inventaris peralatan industri dengan kontrol akses pengguna.
+
+\subsection*{Fitur Utama}
+\begin{itemize}
+  \item CRUD data peralatan
+  \item Role-based access control
+  \item Fitur pencarian data
+  \item Ekspor data ke spreadsheet
+  \item Sistem autentikasi pengguna
+\end{itemize}
+
+\subsection*{Teknologi}
+Laravel, MySQL
+
+\vspace{10pt}
+
+% ================== PROJECT 4 ==================
+\section*{Valve Equipment Finder}
+
+Aplikasi pencarian peralatan berbasis database.
+
+\subsection*{Deskripsi}
+Digunakan untuk membantu pencarian dan pengelolaan data teknis peralatan industri.
+
+\subsection*{Fitur Utama}
+\begin{itemize}
+  \item Sistem katalog peralatan
+  \item Pencarian data cepat
+  \item Manajemen data teknis
+\end{itemize}
+
+\subsection*{Teknologi}
+Laravel, MySQL
+
+\end{document}
